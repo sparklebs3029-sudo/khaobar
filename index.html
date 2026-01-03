@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KhaoBar - 바쁜 아침을 채우는 따뜻한 온기</title>
+    <title>카오바 - 바쁜 아침을 채우는 따뜻한 온기</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700;900&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Noto Sans KR', sans-serif; }
-        .hero-bg { 
-            /* 쿠키 사진 대신 보내주신 제품 사진으로 변경 */
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('스크린샷 2026-01-03 오후 6.12.39.jpg'); 
-            background-size: cover; 
-            background-position: center; 
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('image_7.png'); /* 배경 이미지 적용 */
+            background-size: cover;
+            background-position: center;
         }
         .text-shadow {
             text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
@@ -22,9 +21,9 @@
 <body class="bg-gray-50 text-gray-800">
 
     <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm transition-all duration-300">
-        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
             <a href="#" class="flex items-center">
-                <img src="카오바 CI1.png" alt="KhaoBar 로고" class="h-10 md:h-12 object-contain">
+                <img src="image_5.png" alt="KhaoBar 로고" class="h-10 md:h-12 object-contain"> /* 로고 이미지 적용 */
             </a>
             <nav class="hidden md:flex space-x-8 font-medium items-center">
                 <a href="#about" class="text-gray-600 hover:text-orange-600 transition">브랜드 스토리</a>
@@ -57,7 +56,7 @@
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/2 relative">
                     <div class="absolute -top-10 -left-10 w-24 h-24 bg-orange-100 rounded-full z-0"></div>
-                    <img src="스크린샷 2026-01-03 오후 6.12.39.jpg" alt="KhaoBar 제품" class="relative z-10 rounded-2xl shadow-2xl w-full object-cover h-[400px]">
+                    <img src="image_9.png" alt="KhaoBar 제품" class="relative z-10 rounded-2xl shadow-2xl w-full object-cover h-[400px]"> /* 제품 이미지 적용 */
                     <div class="absolute -bottom-5 -right-5 w-40 h-40 bg-orange-50 rounded-full z-0"></div>
                 </div>
                 <div class="md:w-1/2">
@@ -128,7 +127,7 @@
 
     <footer class="bg-gray-900 text-gray-400 py-12">
         <div class="container mx-auto px-6 text-center">
-            <img src="카오바 CI1.png" alt="KhaoBar 로고" class="h-10 mx-auto mb-6 grayscale opacity-50">
+            <img src="image_5.png" alt="KhaoBar 로고" class="h-10 mx-auto mb-6 grayscale opacity-50"> /* 푸터 로고 이미지 적용 */
             <p class="text-sm text-gray-500 font-medium">&copy; 2026 Jejomandang KhaoBar. All rights reserved.</p>
         </div>
     </footer>
